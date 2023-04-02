@@ -72,7 +72,7 @@
 
 
 #slider{
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
 }
 
 #slider .carousel-caption{
@@ -110,7 +110,7 @@
 }
 
 @media (min-width: 768px){
-    
+
     #slider .carousel-caption{
         bottom: 15em;
     }
@@ -131,5 +131,38 @@
     }
 
 
+}
+
+/* ------- MINI BANNERS ------ */
+
+#mini-banners{
+    margin-top: 4em;
+
+}
+
+#mini-banners .card{
+    padding: 2em 0.3em;
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+#mini-banners i{
+    font-size: 1.5em;
+
+}
+
+#mini-banners .card-tittle{
+    margin-bottom: 1.5em;
+}
+
+#mini-banners .btn{
+    margin-top: 1.5em;
+    padding: 0.5em 1.2em;
+}
+
+@media (min-width: 768px){
+    #mini-banners{
+        margin-top: -6em;
+    }
 }
 
