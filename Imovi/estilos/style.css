@@ -59,3 +59,12 @@
 #navbarNavDropdown .nav-item{
     margin: 0 1em;
 }
+
+/* ----------- SLIDER -------- */
+
+#carouselExampleCaptions{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
