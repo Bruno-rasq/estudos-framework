@@ -62,17 +62,74 @@
 
 /* ----------- SLIDER -------- */
 
-#carouselExampleCaptions{
-    margin-top: 1em;
+#slider-container{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
+    /* config alternativa*/
+}
+
+
+#slider{
     margin-bottom: 1em;
 }
 
-#carouselExampleCaptions .carousel-caption{
+#slider .carousel-caption{
     bottom: 3em;
 }
 
-#carouselExampleCaptions .carousel-caption h5{
+#slider .carousel-caption h5{
     font-size: 2.5em;
-    text-shadow: #0000 5px 5px;
+    text-shadow: black 2px 2px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+#slider .btn{
+    padding: 0.3em 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev > i,
+.carousel-control-next > i{
+    color: black;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #050505;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+@media (min-width: 768px){
+    
+    #slider .carousel-caption{
+        bottom: 15em;
+    }
+
+    #slider .carousel-caption h5{
+        font-size: 4em;
+        text-shadow: black 2px 3px;
+    }
+
+    #slider .btn{
+        padding: 0.6em 1.6em;
+        font-size: 1.2em;
+        margin-top: 1em;
+    }
+
+    .carousel-indicators{
+        bottom: 7em;
+    }
+
+
 }
 
