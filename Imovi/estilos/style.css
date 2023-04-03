@@ -105,12 +105,12 @@ body{
 }
 
 .carousel-indicators [data-bs-target]{
-    background-color: #050505;
+    background-color: #000000;
     opacity: 0.8;
 }
 
 .carousel-indicators .active{
-    background-color: black;
+    background-color: rgb(8, 255, 243);
 }
 
 @media (min-width: 768px){
