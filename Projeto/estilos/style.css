@@ -105,3 +105,51 @@ header .navbar{
 .carousel-indicators .active{
     background-color: #65daf9;
 }
+
+/* ----------- SOBRE A AGENCIA ----------- */
+
+.about-area p{
+    color: #363333;
+
+}
+
+.main-tittle{
+    color: #363333;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+
+}
+
+.main-tittle::after{
+    content: "";
+    border-top: 2px solid #363333;
+    position: absolute;
+    width: 15%;
+    top: 60px;
+    left: 42.5%;
+}
+
+.abou-tittle{
+    font-size: 17px;
+    color: #363333;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#about-list li{
+    line-height: 30px;
+    color: #363333;
+}
+
+#about-list i{
+    color: #65daf9;
+    margin-right: 15px;
+}
