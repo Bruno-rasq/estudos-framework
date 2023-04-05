@@ -16,40 +16,39 @@ body{
 }
 
 p, li{
-    color: #444;
+    color: #cccccc;
     font-size: 14px;
 }
 
 /* ------------- BARRA DE NAVEGAÇÂO ------------- */
 
-header, .navbar{
-    background-color: #353D41;
-
+header .navbar{
+    border-bottom: 1px solid black;
 }
 
-#nav-container{
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-}
-
-#logo{
+.navbar-brand img{
     width: 70px;
 }
 
-.navbar-brand {
-    padding-left: 5px;
-    color: white;
+.navbar-brand span{
+    color: #cccccc;
+    user-select: none;
 }
 
-.navbar-brand:hover{
-    color: white;
+
+#navbarNavAltMarkup .navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
 }
 
-#navbar-links a{
+#navbarNavAltMarkup .nav-item{
+    margin: 0 1em;
     color: white;
+    user-select: none;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
+#navbarNavAltMarkup .nav-item.active{
+    border-bottom: 1px solid #cccccc;
 }
