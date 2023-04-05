@@ -47,8 +47,61 @@ header .navbar{
     margin: 0 1em;
     color: white;
     user-select: none;
+    cursor: pointer;
 }
 
 #navbarNavAltMarkup .nav-item.active{
     border-bottom: 1px solid #cccccc;
+}
+
+/* ------------- SLIDER ----------- */
+
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-item{
+    height: 95vh;
+}
+
+#carouselExampleIndicators .carousel-caption{
+    top: 45%;
+}
+
+#carouselExampleIndicators .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px black;
+}
+
+#carouselExampleIndicators .carousel-caption p:nth-child(2){
+    margin-bottom: 10px;
+}
+
+#carouselExampleIndicators .carousel-caption p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-btn{
+    background-color: #65daf9;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    border: 2px solid #65daf9;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.carousel-indicators .active{
+    background-color: #65daf9;
 }

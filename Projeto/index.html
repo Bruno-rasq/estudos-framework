@@ -36,7 +36,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="img/hdcagency_logo.svg" alt="logo">
@@ -62,6 +62,68 @@
             </div>
         </nav>
     </header>
+    <main>
+        <!-- SLIDER -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Itens do slide-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.png" alt="projeto de e-commerce" class="d-block w-100">
+                    <!-- textos e ect dentro da imagem-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Quer criar um E-commerce?</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, in mollitia. Mollitia quia nobis officia nesciunt vero?</p>
+
+                        <a href="#" class="main-btn">ver projeto.</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/banner2.png" alt="engenharia de software" class="d-block w-100">
+                    <!-- textos e ect dentro da imagem-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Está querendo tirar o projeto do papel?</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, in mollitia. Mollitia quia nobis officia nesciunt vero?</p>
+
+                        <a href="#" class="main-btn">Entre em contato.</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/banner3.png" alt="manutenção em software" class="d-block w-100">
+                    <!-- textos e ect dentro da imagem-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Está buscando manuteção no seu software?</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, in mollitia. Mollitia quia nobis officia nesciunt vero?</p>
+
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- SETAS LATERAIS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </main>
     
 </body>
 </html>
