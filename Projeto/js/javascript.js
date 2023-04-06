@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     let circleA = new ProgressBar.circle(containerA, {
         color: '#54DAF9',
-        stroke: 8,
+        stroke: 15,
         duration: 1400,
         from:{color: '#AAA'},
         to: {color: '#65DAF9'},
