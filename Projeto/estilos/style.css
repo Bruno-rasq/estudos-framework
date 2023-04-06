@@ -153,3 +153,35 @@ header .navbar{
     color: #65daf9;
     margin-right: 15px;
 }
+
+/* ----------- SKILLS --------- */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box p{
+    color: #363333;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #363333;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #363333;
+}
+
+.service-box:hover > i{
+    color: #65daf9;
+}
+
