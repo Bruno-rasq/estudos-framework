@@ -291,3 +291,10 @@ header .navbar{
     line-height: 40px;
     padding: 0 20px;
 }
+
+#filter-btn-box .filter-btn.active,
+#filter-btn-box .filter-btn:hover{
+    color: white;
+    background-color: #65daf9;
+    border-color: #65daf9;
+}
