@@ -208,3 +208,61 @@ header .navbar{
 .card-body{
     text-align: center;
 }
+
+/* --------- TRABALHE CONOSCO ---------- */
+
+#apply-area{
+    height: 500px;
+
+}
+
+#apply-area .container-fluid,
+#apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img {
+    background: black url('../img/empresa.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img{
+    background-color: black;
+}
+
+#pattern-img h4,
+#pattern-img p{
+    color: white;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#apply-btn:hover{
+    border-color: #bcf1ff;
+    background-color: #65daf9;
+}
