@@ -201,6 +201,14 @@ header .navbar{
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
+
+}
+
+#data-area{
+    background-image: url('../img/cidadeparallax.png');
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* ----------- CARDS TEAM ----------- */
