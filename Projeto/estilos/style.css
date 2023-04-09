@@ -322,3 +322,96 @@ header .navbar{
     background-color: #65daf9;
     border-color: #65daf9;
 }
+
+/* ----------- NEWSLETTER----------- */
+
+#news-area{
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+#news-area input[type=email]{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65daf9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+
+    position: relative;
+    right: 20%;
+    
+}
+
+#news-area input[type=submit]{
+    border: 1px solid #65daf9;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: #65daf9;
+    color: white;
+    text-transform: uppercase;
+    height: 40px;
+
+    padding: 0 30px;
+    margin-left: -105px;
+    position: absolute;
+    transition: .5s;
+
+}
+
+#news-area input[type=submit]:hover{
+    background-color: white;
+    color: #65daf9;
+}
+
+/* --------- CALL TO ACTION ------- */
+
+#call-area{
+    background-color: #65daf9;
+    text-transform: uppercase;
+}
+
+#call-area .container{
+    padding: 40px 100px;
+}
+
+#call-area .row{
+    display: block;
+    text-align: center;
+}
+
+#call-area p{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+
+    margin-bottom: 0;
+    display: inline;
+
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn{
+
+    background-color: white;
+    color: #65daf9;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
