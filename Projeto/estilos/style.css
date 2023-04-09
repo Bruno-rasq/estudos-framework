@@ -233,7 +233,12 @@ header .navbar{
 }
 
 #pattern-img{
-    background-color: black;
+    background-image: url('../img/pattern.png');
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* efeito parallax feito a mão com htlm e css*/
 }
 
 #pattern-img h4,
