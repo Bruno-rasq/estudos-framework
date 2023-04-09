@@ -56,9 +56,14 @@ header .navbar{
 
 /* ------------- SLIDER ----------- */
 
+#carouselExampleIndicators .carousel-item img{
+    height: 100%;
+    background-size: cover;
+}
+
 #carouselExampleIndicators .carousel-inner,
 #carouselExampleIndicators .carousel-item{
-    height: 95vh;
+    height: 85vh;
 }
 
 #carouselExampleIndicators .carousel-caption{
@@ -107,6 +112,10 @@ header .navbar{
 }
 
 /* ----------- SOBRE A AGENCIA ----------- */
+
+.img-empresa{
+    margin-bottom: 30px;
+}
 
 .about-area p{
     color: #363333;
@@ -221,6 +230,7 @@ header .navbar{
 
 #apply-area{
     height: 500px;
+    margin-bottom: 600px;
 
 }
 
@@ -298,6 +308,7 @@ header .navbar{
     background-color: transparent;
     text-transform: none;
     margin: 0 15px ;
+    margin-bottom: 9px;
     min-width: 100px;
     width: auto;
     height: 40px;

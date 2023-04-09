@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px){
+
+    /* -------- SLIDE CAROUSEL ----- */
+
+    #carouselExampleIndicators .carousel-inner,
+    #carouselExampleIndicators .carousel-item{
+        height: 95vh;
+    }
+
+    #carouselExampleIndicators .carousel-caption{
+        top: 45%;
+    }
+
+    #carouselExampleIndicators .carousel-caption h2{
+        font-size: 50px;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px black;
+    }
+
+    #carouselExampleIndicators .carousel-caption p:nth-child(2){
+        margin-bottom: 10px;
+    }
+
+    #carouselExampleIndicators .carousel-caption p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        color: white;
+    }
+
+    .main-btn{
+        background-color: #65daf9;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        width: 200px;
+        height: 60px;
+        padding: 5px 10px;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        transition: .5s;
+    }
+
+    .main-btn:hover{
+        border: 2px solid #65daf9;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+    }
+
+    .carousel-indicators .active{
+        background-color: #65daf9;
+    }
+
+    /* ----------- SOBRE A AGENCIA ----------- */
+
+    .about-area p{
+        color: #363333;
+
+    }
+
+    .main-tittle{
+        color: #363333;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .main-tittle::after{
+        content: "";
+        border-top: 2px solid #363333;
+        position: absolute;
+        width: 15%;
+        top: 60px;
+        left: 42.5%;
+    }
+
+    .abou-tittle{
+        font-size: 17px;
+        color: #363333;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    #about-list{
+        list-style: none;
+        padding-left: 0;
+
+    }
+
+    #about-list li{
+        line-height: 30px;
+        color: #363333;
+    }
+
+    #about-list i{
+        color: #65daf9;
+        margin-right: 15px;
+    }
+
+    /* --------- TRABALHE CONOSCO ---------- */
+
+    #apply-area{
+        height: 500px;
+        margin-bottom: 0px;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row{
+        height: 100%;
+    }
+
+    #apply-area .apply-box{
+        text-align: center;
+        padding: 70px 50px;
+    }
+
+    #company-img {
+        background: black url('../img/empresa.jpg') no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    #pattern-img{
+        background-image: url('../img/pattern.png');
+        box-shadow: inset 6px 6px 13px 0px black;
+        background-size: cover;
+        background-attachment: fixed;
+
+        /* efeito parallax feito a mão com htlm e css*/
+    }
+
+    #pattern-img h4,
+    #pattern-img p{
+        color: white;
+    }
+
+    #pattern-img h4{
+        margin-top: 8%;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    #pattern-img p{
+        margin-bottom: 20px;
+    }
+
+    #apply-btn{
+        display: block;
+        height: auto;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        background-color: transparent;
+        border-color: white;
+    }
+
+    #apply-btn:hover{
+        border-color: #bcf1ff;
+        background-color: #65daf9;
+    }
+
+    /* --------- PORTIFOLIO --------- */
+
+    .project-box{
+        margin-bottom: 30px;
+
+    }
+
+    #filter-btn-box{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #filter-btn-box .filter-btn{
+        color: #444;
+        border: 1px solid #444;
+        background-color: transparent;
+        text-transform: none;
+        margin: 0 15px ;
+        min-width: 100px;
+        width: auto;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+
+    #filter-btn-box .filter-btn.active,
+    #filter-btn-box .filter-btn:hover{
+        color: white;
+        background-color: #65daf9;
+        border-color: #65daf9;
+    }
+
+}

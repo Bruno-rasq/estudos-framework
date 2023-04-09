@@ -31,6 +31,7 @@
 
     <!-- LINK CSS E JAVASCRIPT-->
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/Mediaquery.css">
     <script src="js/javascript.js" defer></script>
 
 </head>
@@ -50,11 +51,11 @@
 
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link nav-item active " aria-current="page" id="home-menu">Home</a>
-                  <a class="nav-link nav-item" id="about-menu">About</a>
-                  <a class="nav-link nav-item" id="service-menu">Services</a>
-                  <a class="nav-link nav-item" id="team-menu">Team</a>
-                  <a class="nav-link nav-item" id="projects-menu">Projects</a>
+                  <a class="nav-link nav-item active " aria-current="page" id="home-menu" href="#carouselExampleIndicators">Home</a>
+                  <a class="nav-link nav-item" id="about-menu" href="#sobre-navlink">About</a>
+                  <a class="nav-link nav-item" id="service-menu" href="#skillslink">Services</a>
+                  <a class="nav-link nav-item" id="team-menu" href="#team-area">Team</a>
+                  <a class="nav-link nav-item" id="projects-menu" href="#projects">Projects</a>
                   <a class="nav-link nav-item" id="contact-menu">contact</a>
                   
                 </div>
@@ -126,14 +127,14 @@
         </div>
 
         <!-- GRID sobre a empresa-->
-        <div class="container-fluid">
+        <div class="container-fluid" id="sobre-navlink">
             <div class="about-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="main-tittle">Sobre a Hdc  agency</h3>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 img-empresa">
                             <img src="img/agencia.jpg" alt="agencia HDC" class="img-fluid">
                         </div>
                         <div class="col-md-6">
@@ -156,7 +157,7 @@
         </div>
 
         <!-- SERVICES -->
-        <div class="service-area">
+        <div class="service-area" id="skillslink">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -295,7 +296,7 @@
         </div>
 
         <!-- PROJETOS -->
-        <div class="portifolio-area">
+        <div class="portifolio-area" id="projects">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
