@@ -328,6 +328,7 @@ header .navbar{
 #news-area{
     text-align: center;
     background-color: #f9f9f9;
+    
 }
 
 #news-area p{
@@ -378,6 +379,7 @@ header .navbar{
 #call-area{
     background-color: #65daf9;
     text-transform: uppercase;
+    margin-bottom: 70px;
 }
 
 #call-area .container{
@@ -387,6 +389,7 @@ header .navbar{
 #call-area .row{
     display: block;
     text-align: center;
+    
 }
 
 #call-area p{
@@ -415,3 +418,65 @@ header .navbar{
     letter-spacing: 2px;
 }
 
+/* -------------- FOOTER --------- */
+
+#contact-area{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.contact-box i{
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-tittle{
+    font-weight: bold;
+    color: #65daf9;
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type=text],
+#contact-form input[type=email],
+#contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn:hover{
+    color: #65daf9;
+}
+
+/* ----- COPY ------- */
+
+#copy-area{
+    background-color: #f1f1f1;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
