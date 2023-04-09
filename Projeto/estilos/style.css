@@ -266,3 +266,28 @@ header .navbar{
     border-color: #bcf1ff;
     background-color: #65daf9;
 }
+
+/* --------- PORTIFOLIO --------- */
+
+.project-box{
+    margin-bottom: 30px;
+
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#filter-btn-box .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px ;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
