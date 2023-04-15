@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     // progress bar
-    let containerA = document.getElementById("circleA");
+    let containerA = document.getElementById("circle-A");
 
     let circleA = new ProgressBar.circle(containerA, {
         color: '#64DAF9',
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     });
 
-    let containerB = document.getElementById("circleB");
+    let containerB = document.getElementById("circle-B");
 
     let circleB = new ProgressBar.circle(containerB, {
         color: '#64DAF9',
@@ -41,7 +41,7 @@ $(document).ready(function() {
 
     });
 
-    let containerC = document.getElementById("circleC");
+    let containerC = document.getElementById("circle-C");
 
     let circleC = new ProgressBar.circle(containerC, {
         color: '#64DAF9',
@@ -61,7 +61,7 @@ $(document).ready(function() {
 
     });
 
-    let containerD = document.getElementById("circleD");
+    let containerD = document.getElementById("circle-D");
 
     let circleD = new ProgressBar.circle(containerD, {
         color: '#64DAF9',
@@ -126,3 +126,4 @@ $(document).ready(function() {
 
 
 });
+

@@ -6,7 +6,8 @@
 
     #carouselExampleIndicators .carousel-inner,
     #carouselExampleIndicators .carousel-item{
-        height: 95vh;
+        height: auto;
+    
     }
 
     #carouselExampleIndicators .carousel-caption{
@@ -14,7 +15,7 @@
     }
 
     #carouselExampleIndicators .carousel-caption h2{
-        font-size: 50px;
+        font-size: 20px;
         margin-bottom: 30px;
         text-shadow: 1px 1px black;
     }
@@ -246,4 +247,74 @@
         color: #65daf9;
     }
 
+}
+
+@media screen and (min-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* slider */
+    #carouselExampleIndicators .carousel-inner,
+    #carouselExampleIndicators .carousel-item{
+        height: auto;
+    }
+
+    #carouselExampleIndicators .carousel-caption h2{
+        font-size: 28px;
+        
+    }
+
+    #carouselExampleIndicators .carousel-caption p{
+        font-size: 18px;
+    }
+
+    /* about */
+
+    /*.about-area img{
+        margin-top: 100px;
+    }*/
+
+
+    /* team */
+
+    .card-tittle{
+        font-size: 14px;
+    }
+
+    .card-text p{
+        font-size: 12px;
+    }
+
+    /* apply*/
+
+    #apply-area .apply-box{
+        padding: 50px;
+    }
+
+    /* news */
+
+    #news-area p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input{
+        width: 70%;
+    }
+
+    #call-area{
+        margin-top: 20px;
+    }
+
+    #call-area .container{
+        padding: 30px;
+    }
+
+    #call-area p, #call-area  #call-btn{
+        font-size: 16px;
+    }
 }
