@@ -259,7 +259,7 @@
     /* slider */
     #carouselExampleIndicators .carousel-inner,
     #carouselExampleIndicators .carousel-item{
-        height: auto;
+        height: 95vh;
     }
 
     #carouselExampleIndicators .carousel-caption h2{
@@ -273,12 +273,17 @@
 
     /* about */
 
-    /*.about-area img{
+    .about-area img{
         margin-top: 100px;
-    }*/
+    }
 
 
     /* team */
+
+    #team-area{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
 
     .card-tittle{
         font-size: 14px;
@@ -291,7 +296,7 @@
     /* apply*/
 
     #apply-area .apply-box{
-        padding: 50px;
+        padding: 20px;
     }
 
     /* news */
