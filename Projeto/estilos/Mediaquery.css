@@ -323,3 +323,26 @@
         font-size: 16px;
     }
 }
+
+/* versao mobile */
+
+@media(max-width: 725px){
+    /* slider*/
+    #carouselExampleIndicators{
+        margin-top: 90px;
+    }
+
+    #carouselExampleIndicators .carousel-caption{
+        top: 40%;
+    }
+
+    #carouselExampleIndicators .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #carouselExampleIndicators .carousel-caption p{
+        display: none;
+    }
+
+}
