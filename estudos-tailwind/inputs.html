@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Tailwind - CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+        darkMode: 'class',
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                baby: '#00d4ff',
+              }
+            }
+          }
+        }
+    </script>
+
+</head>
+<body>
+
+    <div class="flex px-4 py-8 mx-auto bg-gray-200 items-center">
+        <h6 class="font-bold mt-4 dark:text-gray-50  mb-6">Component inputs</h6>
+
+        <input 
+        type="text" 
+        name="msg" 
+        id="msg"
+        placeholder="Digite aqui!" 
+        class="border 
+        border-gray-500 
+        rounded 
+        px-4 py-1
+        h-10 
+        text-sm text-black 
+        placeholder-gray-500 
+        focus:ring-2
+        focus:ring-yellow-600
+        focus:outline-none
+        w-2/4
+        mx-auto">
+
+        <button type="submit" class="
+        bg-yellow-500
+        hover:bg-yellow-700
+        active:bg-yellow-900
+        text-sm
+        text-white
+        px-6  py-2
+        rounded
+        shadow-lg
+        transition duration-500 ease-in-out ">Enviar!</button>
+    </div>
+    
+</body>
+</html>
