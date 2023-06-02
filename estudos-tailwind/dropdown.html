@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowns</title>
+
+    <!-- Tailwind - CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex flex-col gap-5 px-4 py-3 bg-gray-100  justify-left">
+
+        <h6 class="font-bold text-black text-lg">Dropdowns</h6>
+
+        <div class="flex flex-col w-44">
+            <button type="submit" id="btn" class="
+                bg-yellow-500
+                hover:bg-yellow-700
+                active:bg-yellow-900
+                text-sm
+                text-white
+                px-6  py-2
+                rounded-t
+                shadow-lg
+                transition duration-500 ease-in-out 
+                flex flex-row
+                gap-3
+                items-center">
+                btn-dropdown
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+                </svg>
+            </button>
+
+            <div  id="dropdown" class="
+                bg-white
+                text-gray-400
+                inline-flex
+                flex-col
+                w-full
+                shadow-md
+                rounded-b-md">
+                
+                <a href="#" class="block hover:bg-gray-300 py-2 px-3">link-1</a>
+                <a href="#" class="block hover:bg-gray-300 py-2 px-3">link-2</a>
+                <a href="#" class="block hover:bg-gray-300 py-2 px-3">link-3</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const drop = document.getElementById("dropdown");
+
+        const toggleDropDown = () => {
+            drop.foreach((el) => el.classlist.toggle("hidden"))
+        }
+
+        btn.addEventlistener("click", () => toggleDropDown());
+        
+    </script>
+</body>
+</html>
