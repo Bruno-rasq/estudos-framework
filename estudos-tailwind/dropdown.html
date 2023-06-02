@@ -9,6 +9,9 @@
     <!-- Tailwind - CDN-->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- script js -->
+    <script src="js/script.js" defer></script>
+
 </head>
 <body>
     <div class="flex flex-col gap-5 px-4 py-3 bg-gray-100  justify-left">
@@ -51,17 +54,5 @@
         </div>
 
     </div>
-
-    <script>
-        const btn = document.getElementById("btn");
-        const drop = document.getElementById("dropdown");
-
-        const toggleDropDown = () => {
-            drop.foreach((el) => el.classlist.toggle("hidden"))
-        }
-
-        btn.addEventlistener("click", () => toggleDropDown());
-        
-    </script>
 </body>
 </html>
