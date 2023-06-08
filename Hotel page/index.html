@@ -29,7 +29,7 @@
     <!-- Header -->
     <div class="bg-gray-100">
 
-        <div class="containe mx-auto px-10 h-20 flex items-center justify-between">
+        <div class="containe max-w-5xl mx-auto px-10 h-20 flex items-center justify-between">
             <div class="font-black text-2xl text-gray-500">Logo</div>
 
             <ul class="flex gap-5">
@@ -55,7 +55,7 @@
 
     <!-- banner -->
     <div style="background: url(./imgs/pexels-gustavo-rodrigues-1755288.jpg); background-size:cover; background-position: center center; height:450px; ">
-        <div class="container mx-auto" style="height:450px;">
+        <div class="container max-w-5xl mx-auto" style="height:450px;">
             <div class="container h-full flex flex-col items-center justify-center">
 
                 <div class="text-center">
@@ -63,8 +63,8 @@
                     <p class="text-gray-100">Escolha o Estado e Cidade para achara os melhores resortes</p>
                 </div>
 
-                <div>
-                    <form action="" class="space-x-2 mt-7 items-center">
+                <div class="mt-3">
+                    <form action="" class="grid grid-cols-2 lg:grid-cols-3 gap-4">
                         <select class="bg-gray-50 px-3 py-2 borber border-gray-300 rounded text-gray-500">
                             <option value="">Escolha o Estado.</option>
                         </select>
@@ -73,7 +73,7 @@
                             <option value="">Escolha a Cidade.</option>
                         </select>
 
-                        <button class="inline-flex items-center bg-yellow-500 hover:bg-yellow-700 px-3 py-2 borber border-gray-300 rounded text-white">
+                        <button class="col-span-2 lg:col-span-1 inline-flex items-center justify-center bg-yellow-500 hover:bg-yellow-700 px-3 py-2 borber border-gray-300 rounded text-white">
                             <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
                             </svg>
@@ -89,9 +89,9 @@
 
     <!-- feature resort -->
     <div>
-        <div class="container mx-auto px-10 py-10 mb-5">
-            <div class="flex">
-                <div class="flex-grow-1 text-gray-600 pr-10">
+        <div class="container max-w-5xl mx-auto px-10 py-10 mb-5">
+            <div class="flex flex-col-reverse lg:flex-row">
+                <div class="flex-grow-1 text-gray-600 lg:pr-10">
                     <div class="text-sm text-gray-400 font-md">Resort em destaque</div>
                     <div class="text-3xl">Lorem ipsum dolor</div>
                     <div class="text-gray-500 font-md mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="ml-auto flex-shrink-0">
+                <div class="lg:ml-auto flex-shrink-0 mb-5 lg:mb-0">
                     <img src="./imgs/pexels-martin-péchy-2844474.jpg" alt="hotel-img" width="450px" >
                 </div>
             </div>
@@ -124,7 +124,7 @@
 
     <!-- resorts grid -->
     <div>
-        <div class="container mx-auto px-4">
+        <div class="container max-w-5xl mx-auto px-4">
             <div>
                 <h3 class="text-2xl text-gray-500 text-center font-semibold mb-8">Conheça mais resorts</h3>
 
@@ -132,44 +132,44 @@
 
                     <div class="col-span-2 row-span-2 rounded-lg overflow-hidden">
                         <div class="w-full h-96 flex items-center justify-center bg-blue-500 relative">
-                            <h4 class="text-2xl text-semibold text-white">Text Sample</h4>
+                            <h4 class="lg:text-2xl text-semibold text-white">Text Sample</h4>
 
                             <div class="absolute bottom-0 w-full pl-4 pb-2 pt-2"
                             style="background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.432)) ;">
-                                <p class="text-white text-lg text-semibold">Lorem ipsum dol</p>
+                                <p class="text-white lg:text-lg text-semibold">Lorem ipsum dol</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-span-2 rounded-lg overflow-hidden">
                         <div class="w-full h-full flex items-center justify-center bg-green-500 relative">
-                            <h4 class="text-2xl text-semibold text-white">Text Sample</h4>
+                            <h4 class="lg:text-2xl text-semibold text-white">Text Sample</h4>
 
                             <div class="absolute bottom-0 w-full pl-4 pb-2 pt-2"
                             style="background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.432)) ;">
-                                <p class="text-white text-lg text-semibold">Lorem ipsum dol</p>
+                                <p class="text-white lg:text-lg text-semibold">Lorem ipsum dol</p>
                             </div>
                         </div>
                     </div>
 
                     <div class=" rounded-lg overflow-hidden">
                         <div class="w-full h-full flex items-center justify-center bg-yellow-500 relative">
-                            <h4 class="text-2xl text-semibold text-white">Text Sample</h4>
+                            <h4 class="lg:text-2xl text-semibold text-white">Text Sample</h4>
 
                             <div class="absolute bottom-0 w-full pl-4 pb-2 pt-2"
                             style="background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.432)) ;">
-                                <p class="text-white text-lg text-semibold">Lorem ipsum dol</p>
+                                <p class="text-white lg:text-lg text-semibold">Lorem ipsum dol</p>
                             </div>
                         </div>
                     </div>
 
                     <div class=" rounded-lg overflow-hidden">
                         <div class="w-full h-full flex items-center justify-center bg-red-500 relative">
-                            <h4 class="text-2xl text-semibold text-white">Text Sample</h4>
+                            <h4 class="lg:text-2xl text-semibold text-white">Text Sample</h4>
 
                             <div class="absolute bottom-0 w-full pl-4 pb-2 pt-2"
                             style="background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.432)) ;">
-                                <p class="text-white text-lg text-semibold">Lorem ipsum dol</p>
+                                <p class="text-white lg:text-lg text-semibold">Lorem ipsum dol</p>
                             </div>
                         </div>
                     </div>
@@ -180,8 +180,8 @@
 
     <!-- form search -->
     <div class="py-20">
-        <div class="container mx-auto px-4 flex justify-center">
-            <form action="" class="space-x-2 mt-7 items-center">
+        <div class="container max-w-5xl mx-auto px-4 flex justify-center">
+            <form action="" class="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 <select class="bg-gray-200 px-3 py-2 borber border-gray-300 rounded text-gray-500">
                     <option value="">Escolha o Estado.</option>
                 </select>
@@ -190,7 +190,7 @@
                     <option value="">Escolha a Cidade.</option>
                 </select>
 
-                <button class="inline-flex items-center bg-yellow-500 hover:bg-yellow-700 px-3 py-2 borber border-gray-300 rounded text-white">
+                <button class="col-span-2 lg:col-span-1 inline-flex items-center bg-yellow-500 hover:bg-yellow-700 px-3 py-2 borber border-gray-300 rounded text-white">
                     <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
                     </svg>
@@ -202,7 +202,7 @@
 
     <!-- footer -->
     <div class="border-t border-gray-300">
-        <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="container max-w-5xl mx-auto px-4 flex justify-between items-center">
             <div class="font-black text-2xl text-yellow-700">Logo</div>
 
             <div class="flex items-center space-x-4 ">
@@ -211,7 +211,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path>
                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path>
                     </svg>
-                    .
+                    Icon Sample
                 </a>
                 
                 <a href="#">
@@ -219,7 +219,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path>
                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path>
                     </svg>
-                    .
+                    Icon Sample
                 </a>
 
                 <a href="#">
@@ -227,7 +227,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path>
                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path>
                     </svg>
-                    .
+                    Icon Sample
                 </a>
     
             </div>
