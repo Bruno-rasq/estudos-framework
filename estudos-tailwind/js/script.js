@@ -8,3 +8,5 @@ const toggleDropdonw = () => {
 btn.addEventlistener("click", () => {
     toggleDropdonw();
 });
+
+// esse script não está funcionando com o tailwind
