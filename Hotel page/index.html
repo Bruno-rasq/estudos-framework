@@ -27,22 +27,67 @@
 <body class="bg-gray-50">
 
     <!-- Header -->
-    <div class="bg-gray-200">
+    <div class="bg-gray-100">
 
         <div class="containe mx-auto px-10 h-20 flex items-center justify-between">
             <div class="font-black text-2xl text-gray-500">Logo</div>
 
-            <div class="">
+            <ul class="flex gap-5">
                 <li class="list-none text-sm text-gray-500">
                     <a href="#" class="hover:text-gray-800 hover:underline">Como reservar</a>
+                </li>
+
+                <li class="list-none text-sm text-gray-500">
                     <a href="#" class="hover:text-gray-800 hover:underline">Sobre nós</a>
+                </li>
+
+                <li class="list-none text-sm text-gray-500">
                     <a href="#" class="hover:text-gray-800 hover:underline">informações</a>
+                </li>
+
+                <li class="list-none text-sm text-gray-500">
                     <a href="#" class="hover:text-gray-800 hover:underline">Contato</a>
                 </li>
-            </div>
+            </ul>
         </div>
 
     </div>
+
+    <!-- banner -->
+    <div style="background: url(./imgs/pexels-gustavo-rodrigues-1755288.jpg); background-size:cover; background-position: center center; height:450px; ">
+        <div class="container mx-auto" style="height:450px;">
+            <div class="container h-full flex flex-col items-center justify-center">
+
+                <div class="text-center">
+                    <h1 class="text-gray-100 text-5xl mb-2">Aonde você quer ir?</h1>
+                    <p class="text-gray-100">Escolha o Estado e Cidade para achara os melhores resortes</p>
+                </div>
+
+                <div>
+                    <form action="" class="space-x-2 mt-7 items-center">
+                        <select class="bg-gray-50 px-3 py-2 borber border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha o Estado.</option>
+                        </select>
+
+                        <select class="bg-gray-50 px-3 py-2 borber border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha a Cidade.</option>
+                        </select>
+
+                        <button class="inline-flex items-center bg-yellow-500 hover:bg-yellow-700 px-3 py-2 borber border-gray-300 rounded text-white">
+                            <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                            </svg>
+                            Pesquisar resorte
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--  -->
     
 </body>
 </html>
